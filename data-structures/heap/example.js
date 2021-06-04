@@ -1,4 +1,4 @@
-import { MinHeap      } from './MinHeap';
+import  MinHeap  from './MinHeap';
 
 const minHeap = new MinHeap();
 minHeap.isEmpty();
