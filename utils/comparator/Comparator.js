@@ -9,7 +9,7 @@ export default class Comparator {
         this.compare= compareFunction || Comparator.defaultCompareFunction;
     }
 
-    equal(){
+    equal(a, b){
         return this.compare(a, b) === 0;
     }
     lessThan(a, b){
