@@ -34,7 +34,7 @@ export const btPowerSetBT = (originalSet, currentSet, res=[[]], startIndex) => {
     // 当前子集加入到结果中
     res.push([...currentSet]);
     // 当前子集下 寻找剩下的其他子集
-    btPowerSetBT(originalSet, currentSet, res, startIndex + 1);
+    btPowerSetBT(originalSet, currentSet, res, i + 1);
     // 恢复之前子集
     currentSet.pop();
     
